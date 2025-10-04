@@ -50,7 +50,7 @@ app.post('/webhook', async (req, res) => {
         ]]
       };
 
-      const photoUrl = "https://metagift-market.replit.app/assets/welcom.png";
+      const photoUrl = "https://wave-gift-itog.onrender.com/assets/welcom.png";
       await sendTelegramPhotoWithKeyboard(chatId, photoUrl, welcomeMessage, keyboard);
     }
 
